@@ -22,9 +22,9 @@ function App() {
       <Routes>
           {/* Other Routes */}
           <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
-          <Route path='/mission' element={<Mission />} />
-          <Route path='/work' element={<Work />} />
-          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/EmryToSpreadingMoreSmiles/mission' element={<Mission />} />
+          <Route path='/EmryToSpreadingMoreSmiles/work' element={<Work />} />
+          <Route path='/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
           <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/footer' element={<Footer />} />
           <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/contact' element={<ContactUs />} />
 
