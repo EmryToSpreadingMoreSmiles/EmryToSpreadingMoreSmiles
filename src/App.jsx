@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Routes>
           {/* Other Routes */}
-          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/' element={<Home />} />
+          <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
           <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission' element={<Mission />} />
           <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/work' element={<Work />} />
           <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
