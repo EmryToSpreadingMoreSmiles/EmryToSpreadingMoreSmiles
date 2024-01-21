@@ -55,7 +55,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/EmryToSpreadingMoreSmiles/work"
+                to="/work"
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Campaign
@@ -63,7 +63,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission"
+                to="/mission"
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Mission
@@ -71,23 +71,23 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/EmryToSpreadingMoreSmiles/gallery"
+                to="/gallery"
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Gallery
               </Link>
             </li>
-            <li>
+            {/* <li>
               <button
                 onClick={() => navigate('/gallery')}
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Gallery New
               </button>
-            </li>
+            </li> */}
             <li>
               <Link
-                to="/EmryToSpreadingMoreSmiles/contact"
+                to="/contact"
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Contact Us

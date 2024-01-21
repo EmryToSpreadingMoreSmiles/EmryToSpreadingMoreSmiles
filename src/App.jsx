@@ -19,7 +19,7 @@ import {
 
 function App() {
   return (
-    <BrowserRouter basename="/EmryToSpreadingMoreSmiles">
+    <BrowserRouter basename="/EmryToSpreadingMoreSmiles/">
       <Routes>
         {/* Other Routes */}
         <Route path="/" element={<Home />} />
