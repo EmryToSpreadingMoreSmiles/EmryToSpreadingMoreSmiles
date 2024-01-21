@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { IconPic } from '../constants/index.js';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -8,7 +9,7 @@ const Navbar = () => {
     <nav className="dark:bg-gray-800 dark:border-gray-700 fixed w-full top-0 z-50 text-white bg-[#59CCBE] text-xl font-semibold">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/EmryToSpreadingMoreSmiles/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="src/assets/EMRY.png" className="w-20 h-20" alt="Emry Logo" />
+          <img src={IconPic} className="w-20 h-20" alt="Emry Logo" />
         </Link>
         <button
           data-collapse-toggle="navbar-solid-bg"
