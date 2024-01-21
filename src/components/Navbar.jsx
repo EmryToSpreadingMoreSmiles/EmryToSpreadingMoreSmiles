@@ -53,7 +53,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/work"
+                  href="/work"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Workshops
@@ -61,7 +61,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/work"
+                  href="/work"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Campaign
@@ -69,7 +69,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission"
+                  href="/mission"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Mission
@@ -78,7 +78,7 @@ const Navbar = () => {
               
               <li>
                 <a
-                  href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/gallery"
+                  href="/gallery"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Gallery
@@ -86,7 +86,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/contact"
+                  href="/contact"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact Us
