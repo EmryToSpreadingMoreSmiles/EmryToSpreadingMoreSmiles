@@ -17,29 +17,57 @@ const Footer = () => {
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 EMRY
               </span>
-              <span class=" self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                To Spreading More Blood!
+              <span class="italic self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              &nbsp;- To Spreading More Smiles!
               </span>
             </a>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">
-                Resources
+                CONTACT US
               </h2>
               <ul class="dark:400 font-medium">
                 <li class="mb-4">
-                  <a href="https://flowbite.com/" class="hover:underline">
-                    Flowbite
+                  <a href="https://wa.me/6594460554" class="italic hover:underline">
+                    Eira Shah (+6594460554)
                   </a>
                 </li>
-                <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline">
-                    Tailwind CSS
+                <li class="mb-4">
+                  <a href="https://wa.me/6587417860" className="italic hover:underline">
+                    Yashvi Makharia (+6587417860)
+                  </a>
+                </li>
+                <li class="mb-4">
+                  <a href="https://wa.me/919830048881" className="italic hover:underline">
+                    Riya Biyani (+919830048881)
+                  </a>
+                </li>
+                <li class="mb-4">
+                  <a href="https://wa.me/919831257899" className="italic hover:underline">
+                    Mahe Popat (+919831257899)
+                  </a>
+                </li>
+                <li class="mb-4">
+                  <a href="mailto:emry768@gmail.com" className="font-bold hover:underline">
+                    emry768@gmail.com
                   </a>
                 </li>
               </ul>
             </div>
+            <div>
+              <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">
+                Where we are
+              </h2>
+              <ul class="dark:400 font-medium">
+                <li class="mb-4">
+                  <a href="https://maps.app.goo.gl/y1nxSxp9bTEJ1Qc26" class="hover:underline">
+                    Kolkata, India
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
             <div>
               <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">
                 Follow us
@@ -50,7 +78,7 @@ const Footer = () => {
                     href="https://github.com/themesberg/flowbite"
                     class="hover:underline "
                   >
-                    Github
+                    Instagram
                   </a>
                 </li>
                 <li>
@@ -58,28 +86,12 @@ const Footer = () => {
                     href="https://discord.gg/4eeurUVvTy"
                     class="hover:underline"
                   >
-                    Discord
+                    Whatsapp
                   </a>
                 </li>
               </ul>
             </div>
-            <div>
-              <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">
-                Legal
-              </h2>
-              <ul class="dark:400 font-medium">
-                <li class="mb-4">
-                  <a href="#" class="hover:underline">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="hover:underline">
-                    Terms &amp; Conditions
-                  </a>
-                </li>
-              </ul>
-            </div>
+            
           </div>
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />

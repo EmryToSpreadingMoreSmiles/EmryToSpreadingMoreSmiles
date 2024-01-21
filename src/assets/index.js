@@ -50,7 +50,34 @@ import OurStory from "../assets/Our_Story.jpeg"
 import WhoWeAre from "../assets/Who_we_are.jpg"
 import HomePageImage from "../assets/Pic.jpeg"
 
+import Cam from "../assets/Gallery/Campaign/C.png"
+import Bk1 from "../assets/Gallery/Campaign/Bk1.jpg"
+import Bk2 from "../assets/Gallery/Campaign/Bk2.jpg"
+import Bk3 from "../assets/Gallery/Campaign/Bk3.jpg" 
+import Blue from "../assets/Gallery/Campaign/Blue.png"
+import Impact from "../assets/Gallery/Campaign/Impact.png"
+import Ob from "../assets/Gallery/Campaign/Ob.png"
+import PDF1 from "../assets/Gallery/Campaign/PDF1.png"
+import PDF2 from "../assets/Gallery/Campaign/PDF2.png"
+import PDF3 from "../assets/Gallery/Campaign/PDF3.png"
+import RWW1 from "../assets/Gallery/Campaign/RW1.jpg"
+import RWW2 from "../assets/Gallery/Campaign/RW2.jpg"
+import RWW3 from "../assets/Gallery/Campaign/RW3.jpg"
+
 export {
+    Bk1,
+    Bk2,
+    Bk3,
+    Blue,
+    Impact,
+    Ob,
+    PDF1,
+    PDF2,
+    PDF3,
+    RWW1,
+    RWW2,
+    RWW3,
+    Cam,
     HomePageImage,
     IconPic,
     OurStory,
@@ -99,4 +126,6 @@ export {
     UD5,
     UD6,
     // UD7,
+
+    
 }
