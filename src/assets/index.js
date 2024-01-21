@@ -45,7 +45,16 @@ import Christmas from "../assets/Gallery/Work/Christmas Drive.jpg"
 import DurgaPuja from "../assets/Gallery/Work/Durga Pujo Distribution.jpg"
 import Udaan from "../assets/Gallery/Work/Udaan.jpg"
 
+import IconPic from "../assets/EmryNew.png"
+import OurStory from "../assets/Our_Story.jpeg"
+import WhoWeAre from "../assets/Who_we_are.jpg"
+import HomePageImage from "../assets/Pic.jpeg"
+
 export {
+    HomePageImage,
+    IconPic,
+    OurStory,
+    WhoWeAre,
     ArtWork,
     Christmas,
     DurgaPuja,

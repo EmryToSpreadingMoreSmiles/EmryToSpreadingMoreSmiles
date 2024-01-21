@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import Contact from "./Footer";
 import Navbar from "./Navbar";
+import { HomePageImage, OurStory, WhoWeAre } from "../constants/index.js";
 const Home = () => {
   return (
     <>
@@ -10,7 +11,7 @@ const Home = () => {
       <section
         className="relative w-full h-screen text-center"
         style={{
-          backgroundImage: `url(src/assets/Pic.jpeg)`, // Update the path to the image
+          backgroundImage: `url(${HomePageImage})`, // Update the path to the image
           backgroundSize: "cover",
           backgroundPosition: "center center",
           opacity: "0.9",
@@ -72,7 +73,7 @@ const Home = () => {
         <div className="right-side">
           <div className="mt-10 p-7">
             <img
-              src="src/assets/Who_we_are.jpg"
+              src={OurStory}
               alt=""
               className="w-full object-cover h-[500px]"
             />
@@ -83,7 +84,7 @@ const Home = () => {
         <div className="left-side mx-12">
           <div className="p-7">
             <img
-              src="src/assets/Our_Story.jpeg"
+              src={WhoWeAre}
               alt=""
               className="w-full object-cover"
             />

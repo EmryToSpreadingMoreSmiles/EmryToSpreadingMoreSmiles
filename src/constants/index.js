@@ -1,4 +1,8 @@
 import {
+    HomePageImage,
+    IconPic,
+    OurStory,
+    WhoWeAre,
     DurgaPuja,
     Udaan,
     Christmas,
@@ -132,4 +136,4 @@ const work = [
             "A notable success story emerged as one budding artist not only participated but also secured victory in a local competition, boosting confidence and inspiring others. This success is a testament to the transformative power of art in fostering self-esteem and a sense of achievement.",]
     },
 ]
-export { gallery, work };
+export { HomePageImage, IconPic, OurStory, WhoWeAre, gallery, work };
