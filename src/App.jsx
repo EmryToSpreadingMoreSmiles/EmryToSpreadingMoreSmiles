@@ -21,7 +21,7 @@ function App() {
     <BrowserRouter basename='/EmryToSpreadingMoreSmiles'>
       <Routes>
           {/* Other Routes */}
-          <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='/mission' element={<Mission />} />
           <Route path='/work' element={<Work />} />
           <Route path='/gallery' element={<Gallery />} />
