@@ -21,12 +21,12 @@ function App() {
     <Router>
       <Routes>
           {/* Other Routes */}
-          <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
-          <Route path='/EmryToSpreadingMoreSmiles/mission' element={<Mission />} />
-          <Route path='/EmryToSpreadingMoreSmiles/work' element={<Work />} />
-          <Route path='/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
-          <Route path='/EmryToSpreadingMoreSmiles/footer' element={<Footer />} />
-          <Route path='/EmryToSpreadingMoreSmiles/contact' element={<ContactUs />} />
+          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/' element={<Home />} />
+          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission' element={<Mission />} />
+          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/work' element={<Work />} />
+          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
+          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/footer' element={<Footer />} />
+          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/contact' element={<ContactUs />} />
 
         </Routes>
 
