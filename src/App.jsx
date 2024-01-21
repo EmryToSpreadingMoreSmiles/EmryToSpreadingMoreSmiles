@@ -6,6 +6,7 @@ import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Mission from "./components/Mission";
 import ContactUs from "./components/ContactUs";
+import Campaign from "./components/Campaign";
 
 import { motion } from "framer-motion";
 import { styles } from "./styles";
@@ -25,6 +26,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/mission" element={<Mission />} />
         <Route path="/work" element={<Work />} />
+        <Route path="/campaign" element={<Campaign />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/footer" element={<Footer />} />
         <Route path="/contact" element={<ContactUs />} />

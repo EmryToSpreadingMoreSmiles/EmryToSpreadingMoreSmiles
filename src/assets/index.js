@@ -64,7 +64,10 @@ import RWW1 from "../assets/Gallery/Campaign/RW1.jpg"
 import RWW2 from "../assets/Gallery/Campaign/RW2.jpg"
 import RWW3 from "../assets/Gallery/Campaign/RW3.jpg"
 
+import ContactUs from "../assets/Gallery/ContactUS.png"
+
 export {
+    ContactUs,
     Bk1,
     Bk2,
     Bk3,
