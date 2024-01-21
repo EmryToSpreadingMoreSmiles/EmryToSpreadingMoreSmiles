@@ -10,7 +10,7 @@ import ContactUs from './components/ContactUs'
 import { motion } from 'framer-motion'
 import { styles } from './styles'
 
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 
 
 
@@ -18,23 +18,20 @@ import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 function App() {
 
   return (
-    <Router>
+    <BrowserRouter basename='/EmryToSpreadingMoreSmiles'>
       <Routes>
           {/* Other Routes */}
           <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
-          <Route
-          path='/EmryToSpreadingMoreSmiles/mission'
-          element={<Navigate to='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission' />}
-        />
-          <Route path='/EmryToSpreadingMoreSmiles/work' element={<Work />} />
-          <Route path='/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
-          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/footer' element={<Footer />} />
-          <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/contact' element={<ContactUs />} />
+          <Route path='/mission' element={<Mission />} />
+          <Route path='/work' element={<Work />} />
+          <Route path='/gallery' element={<Gallery />} />
+          <Route path='/footer' element={<Footer />} />
+          <Route path='/contact' element={<ContactUs />} />
 
         </Routes>
 
 
-    </Router>
+        </BrowserRouter>
 
    
         

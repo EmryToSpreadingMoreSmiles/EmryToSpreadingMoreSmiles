@@ -1,6 +1,7 @@
 {
   "name": "emry",
-  "private": true,
+  "homepage": "https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

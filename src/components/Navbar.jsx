@@ -53,7 +53,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/EmryToSpreadingMoreSmiles/work"
+                  href="/work"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Workshops
@@ -69,7 +69,7 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="/EmryToSpreadingMoreSmiles/mission"
+                  href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Mission
@@ -78,7 +78,7 @@ const Navbar = () => {
               
               <li>
                 <a
-                  href="/EmryToSpreadingMoreSmiles/gallery"
+                  href="/gallery"
                   class="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Gallery
