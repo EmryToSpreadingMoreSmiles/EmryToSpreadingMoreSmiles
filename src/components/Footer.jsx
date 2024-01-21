@@ -1,4 +1,5 @@
 import React from "react";
+import { IconPic } from "../constants/index.js";
 
 
 const Footer = () => {
@@ -7,14 +8,17 @@ const Footer = () => {
       <div className="mx-auto p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-            <a href="https://flowbite.com/" class="flex items-center">
+            <a href="https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/" class="flex items-center">
               <img
-                src="https://flowbite.com/docs/images/logo.svg"
+                src={IconPic}
                 class="h-8 me-3"
                 alt="FlowBite Logo"
               />
               <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 EMRY
+              </span>
+              <span class=" self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+                To Spreading More Blood!
               </span>
             </a>
           </div>
@@ -83,7 +87,7 @@ const Footer = () => {
           <span class="text-sm 500 sm:text-center dark:400">
             © 2023{" "}
             <a href="https://flowbite.com/" class="hover:underline">
-              Flowbite™
+              EMRY
             </a>
             . All Rights Reserved.
           </span>

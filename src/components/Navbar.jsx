@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="dark:bg-gray-800 dark:border-gray-700 fixed w-full top-0 z-50 text-white bg-[#59CCBE] text-xl font-semibold">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <Link to="/EmryToSpreadingMoreSmiles/" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src={IconPic} className="w-20 h-20" alt="Emry Logo" />
         </Link>
         <button
@@ -51,7 +51,7 @@ const Navbar = () => {
                 to="/work"
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Workshops
+                Campaign
               </Link>
             </li>
             <li>
@@ -59,7 +59,7 @@ const Navbar = () => {
                 to="/work"
                 className="block py-2 px-3 md:p-0  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#241652] dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
-                Campaign
+                Workshops
               </Link>
             </li>
             <li>

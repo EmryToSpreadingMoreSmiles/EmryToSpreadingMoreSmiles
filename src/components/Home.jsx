@@ -17,7 +17,7 @@ const Home = () => {
           opacity: "0.9",
         }}
       >
-        <div className="absolute inset-0 top-[690px] w-full h-[90px] bg-white w-full p-5 bg-opacity-30">
+        <div className="absolute inset-0 top-[690px] w-full h-[90px] bg-[#59CCBE] w-full p-5 bg-opacity-70">
           <h2 className={`text-white ${styles.heroSubText}`}>
             <span className="text-5xl">To Spreading More Smiles!</span>
           </h2>
@@ -27,7 +27,7 @@ const Home = () => {
         <div className="left-side mx-12 mt-[100px]">
           <div className="title text-[#59CCBE] mb-[40px]">
             <h1 className="text-4xl font-extrabold leading-none tracking-tight dark:text-white">
-              Who We Are?
+              About Us
             </h1>
           </div>
           <div className="subtitile text-[#F18384] mb-[40px]">
