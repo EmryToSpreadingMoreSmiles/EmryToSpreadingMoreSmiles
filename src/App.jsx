@@ -10,7 +10,7 @@ import ContactUs from './components/ContactUs'
 import { motion } from 'framer-motion'
 import { styles } from './styles'
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 
@@ -22,7 +22,10 @@ function App() {
       <Routes>
           {/* Other Routes */}
           <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
-          <Route path='/EmryToSpreadingMoreSmiles/mission' element={<Mission />} />
+          <Route
+          path='/EmryToSpreadingMoreSmiles/mission'
+          element={<Navigate to='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/mission' />}
+        />
           <Route path='/EmryToSpreadingMoreSmiles/work' element={<Work />} />
           <Route path='/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
           <Route path='https://emrytospreadingmoresmiles.github.io/EmryToSpreadingMoreSmiles/footer' element={<Footer />} />
