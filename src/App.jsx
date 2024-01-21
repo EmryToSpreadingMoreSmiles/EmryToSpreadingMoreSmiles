@@ -21,12 +21,12 @@ function App() {
     <Router>
       <Routes>
           {/* Other Routes */}
-          <Route path='/' element={<Home />} />
-          <Route path='/mission' element={<Mission />} />
-          <Route path='/work' element={<Work />} />
-          <Route path='/gallery' element={<Gallery />} />
-          <Route path='/footer' element={<Footer />} />
-          <Route path='/contact' element={<ContactUs />} />
+          <Route path='/EmryToSpreadingMoreSmiles/' element={<Home />} />
+          <Route path='/EmryToSpreadingMoreSmiles/mission' element={<Mission />} />
+          <Route path='/EmryToSpreadingMoreSmiles/work' element={<Work />} />
+          <Route path='/EmryToSpreadingMoreSmiles/gallery' element={<Gallery />} />
+          <Route path='/EmryToSpreadingMoreSmiles/footer' element={<Footer />} />
+          <Route path='/EmryToSpreadingMoreSmiles/contact' element={<ContactUs />} />
 
         </Routes>
 
