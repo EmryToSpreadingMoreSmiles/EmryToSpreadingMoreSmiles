@@ -66,7 +66,20 @@ import RWW3 from "../assets/Gallery/Campaign/RW3.jpg"
 
 import ContactUs from "../assets/Gallery/ContactUS.png"
 
+import Fact1 from "../assets/Gallery/Mission Vision/Fact1.png"
+import Fact2 from "../assets/Gallery/Mission Vision/Fact2.png"
+import Fact3 from "../assets/Gallery/Mission Vision/Fact3.png"
+import Mission from "../assets/Gallery/Mission Vision/Mission.png"
+import Vission from "../assets/Gallery/Mission Vision/vision.png"
+import WhyItMatters from "../assets/Gallery/Mission Vision/Why it matters.png"
+
 export {
+    Fact1,
+    Fact2,
+    Fact3,
+    Mission,
+    Vission,
+    WhyItMatters,
     ContactUs,
     Bk1,
     Bk2,

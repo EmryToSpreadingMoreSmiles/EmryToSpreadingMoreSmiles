@@ -1,4 +1,10 @@
 import {
+    Fact1, 
+    Fact2,
+    Fact3,
+    Mission,
+    Vission,
+    WhyItMatters,
     ContactUs,
     Bk1,
     Bk2,
@@ -152,7 +158,13 @@ const work = [
 ]
 
 export {
+    Fact1,
+    Fact2,
+    Fact3,
+    Mission,
+    Vission,
     ContactUs,
+    WhyItMatters,
     Bk1,
     Bk2,
     Bk3,
