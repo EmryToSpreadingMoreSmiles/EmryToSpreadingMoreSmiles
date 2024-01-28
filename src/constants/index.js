@@ -69,31 +69,86 @@ import {
     // UD7,
 } from "../assets/index.js";
 
+const photos = [
+    {
+        "id": 1,
+        "images": [
+            Art1,Art2,Art3,Art4,Art5,
+            // Art6,
+            // Art7,
+        ]
+    },
+    {
+        "id": 2,
+        "images": [
+            CD1,CD2,CD3,CD4,CD5,CD6,CD7,CD8,
+        ]
+    },
+    {
+        "id": 3,
+        "images": [
+            DP4,
+        ]
+    },
+    {
+        "id": 4,
+        "images": [
+            RW1,RW2,RW3,RW4,RW5,RW6,RW7,
+            
+        ]
+    },
+    {
+        "id": 5,
+        "images": [
+            UD1,UD2,UD3,UD4,UD5,UD6,
+            
+        ]
+    },
+]
+
 const gallery = [
     {
         image: Art2,
         title: "Art Workshop",
         description: "Explore creativity with our Art Workshop for underprivileged children, extending education beyond textbooks",
+        images: [
+            Art1,Art2,Art3,Art4,Art5,
+            // Art6,
+            // Art7,
+        ]
     },
     {
         image: UD1,
         title: "Udaan",
         description: "'Udaan - Chasing Dreams' sparks ambition through origami and poster-making, inspiring kids to dream big and shape a brighter future",
+        images: [
+            UD1,UD2,UD3,UD4,UD5,UD6,
+            
+        ]
     },
     {
         image: DP4,
         title: "Pujo Distribution",
         description: "Durga Puja Stationery Distribution, with Yeh Mera India, provides 150+ underprivileged children essential educational equipment",
+        images: [
+            DP4,
+        ]
     },
     {
         image: CD1,
         title: "Christmas Drive",
         description: "Our Drive with Hope Foundation Kolkata spreads joy, giving goodie bags and creating lasting memories for underprivileged children",
+        images: [
+            CD1,CD2,CD3,CD4,CD5,CD6,CD7,CD8,
+        ]
     },
     {
         image: RW1,
         title: "Reading Workshops",
         description: "Embark on a visual journey through our Reading and Storytelling Workshops for underprivileged children",
+        images: [
+            RW1,RW2,RW3,RW4,RW5,RW6,RW7,
+        ]
     },
 
 
@@ -227,5 +282,6 @@ export {
     UD6,
     // UD7,
     gallery,
-    work
+    work,
+    photos
 };
