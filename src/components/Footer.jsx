@@ -22,7 +22,7 @@ const Footer = () => {
               </span>
             </a>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
             <div>
               <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">
                 CONTACT US
@@ -68,29 +68,7 @@ const Footer = () => {
               </ul>
             </div>
             
-            <div>
-              <h2 class="mb-6 text-sm font-semibold uppercase dark:text-white">
-                Follow us
-              </h2>
-              <ul class="dark:400 font-medium">
-                <li class="mb-4">
-                  <a
-                    href="https://github.com/themesberg/flowbite"
-                    class="hover:underline "
-                  >
-                    Instagram
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://discord.gg/4eeurUVvTy"
-                    class="hover:underline"
-                  >
-                    Whatsapp
-                  </a>
-                </li>
-              </ul>
-            </div>
+            
             
           </div>
         </div>

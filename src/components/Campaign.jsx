@@ -29,7 +29,7 @@ const Campaign = () => {
       </div>
       <div className="flex flex-col items-center m-10">
         <div className="heading below main pic mb-[50px]">
-          <p className="italic text-3xl text-[#59CCBE] font-bold">
+          <p className="italic text-3xl text-[#59CCBE] font-bold text-center">
             “Access to a library and the treasure of knowledge that books have
             to offer should not be a privilege”
           </p>

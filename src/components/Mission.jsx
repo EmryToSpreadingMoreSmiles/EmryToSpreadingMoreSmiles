@@ -17,10 +17,10 @@ const Mission = () => {
       <section className="mt-[110px] relative">
         <img className="h-[500px] w-full object-cover" src={Vission} alt="" />
         <div className="w-[500px] absolute top-0 left-[800px] right-0 bottom-0 flex flex-col justify-center items-center text-center">
-          <h1 className="mb-10 text-[#59CCBE] text-4xl font-extrabold leading-none tracking-tight dark:text-white">
+          <h1 className="mb-10 text-[#F18384] text-6xl font-extrabold leading-none tracking-tight dark:text-white">
             Our Vision
           </h1>
-          <h2 className="">
+          <h2 className="text-[17px] text-[#241652]">
             Our vision is to establish a transformative mentorship platform
             focused on providing quality education to children and youth from
             underserved communities. We believe that education is a fundamental
@@ -35,10 +35,10 @@ const Mission = () => {
       <section className="mt-[110px] relative">
         <img className="h-[500px] w-full object-cover" src={M} alt="" />
         <div className="w-[500px] absolute top-0 left-[180px] right-0 bottom-0 flex flex-col justify-center items-center text-center">
-          <h1 className="mb-10 text-[#59CCBE] text-4xl font-extrabold leading-none tracking-tight dark:text-white">
+          <h1 className="mb-10 text-[#F18384] text-6xl font-extrabold leading-none tracking-tight dark:text-white">
             Our Mission
           </h1>
-          <h2 className="">
+          <h2 className="text-[17px] text-[#241652]">
             Our mission centers on tackling challenges in the educational
             landscape through holistic interventions. Originating from an
             emphasis on accessible and quality education through story books,
@@ -128,12 +128,12 @@ const Mission = () => {
           </div>
         </div>
       </div>
-      <div className="m-5 md:m-10 text-center text-xl">
-        <h2 className="text-red-600 md:text-[20px]">
+      <div className="m-[40px] md:m-10 text-center text-xl">
+        <h2 className="text-red-600 md:text-[30px] italic">
           ....And many more debilitating realities urging community
           intervention. So let’s come together to change the educational
           landscape and create an equitable ground, giving each child
-          opportunity and access.
+          opportunity and access!
         </h2>
       </div>
       <Footer />
